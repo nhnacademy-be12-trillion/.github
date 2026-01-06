@@ -142,8 +142,8 @@
 <table border="1" cellspacing="0" cellpadding="10">
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">강병호</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/Splleat">강병호</a><br />
+      <img width="130px" src="https://github.com/Splleat.png" /><br />
       주문 서비스
     </th>
     <td colspan="2" rowspan="3">(강병호님의 느낀점을 입력해주세요. 프로젝트를 진행하며 겪은 기술적 어려움이나 성장한 점 등을 작성하면 좋습니다.)</td>
@@ -153,8 +153,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">김세현</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/byesummer">김세현</a><br />
+      <img width="130px" src="https://github.com/byesummer.png" /><br />
       회원 서비스
     </th>
     <td colspan="2" rowspan="3">(김세현님의 느낀점을 입력해주세요.)</td>
@@ -164,8 +164,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">김근오</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/roben0510">김근오</a><br />
+      <img width="130px" src="https://github.com/roben0510.png" /><br />
       검색 서비스
     </th>
     <td colspan="2" rowspan="3">(김근오님의 느낀점을 입력해주세요.)</td>
@@ -175,8 +175,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">박성호</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/serrot24">박성호</a><br />
+      <img width="130px" src="https://github.com/serrot24.png" /><br />
       인프라
     </th>
     <td colspan="2" rowspan="3">(박성호님의 느낀점을 입력해주세요.)</td>
@@ -186,8 +186,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">이승현</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/SHYiii">이승현</a><br />
+      <img width="130px" src="https://github.com/SHYiii.png" /><br />
       장바구니 서비스
     </th>
     <td colspan="2" rowspan="3">(이승현님의 느낀점을 입력해주세요.)</td>
@@ -197,8 +197,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">정현수</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/hyunsu15">정현수</a><br />
+      <img width="130px" src="https://github.com/hyunsu15.png" /><br />
       쿠폰 서비스
     </th>
     <td colspan="2" rowspan="3">(정현수님의 느낀점을 입력해주세요.)</td>
@@ -208,8 +208,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">조은해</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/eee88">조은해</a><br />
+      <img width="130px" src="https://github.com/eee88.png" /><br />
       도서 서비스
     </th>
     <td colspan="2" rowspan="3">(조은해님의 느낀점을 입력해주세요.)</td>
@@ -219,8 +219,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">최지훈</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/ChousnCom">최지훈</a><br />
+      <img width="130px" src="https://github.com/ChousnCom.png" /><br />
       결제 서비스
     </th>
     <td colspan="2" rowspan="3">(최지훈님의 느낀점을 입력해주세요.)</td>

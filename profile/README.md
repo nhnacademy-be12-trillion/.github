@@ -92,9 +92,12 @@
     - 등급별 포인트 적립 및 사용 로직 구현
 
 ### **📖 도서**
-- 담당자 : 조은해
+- 담당자 : 조은해, 최지훈
     - 도서 등록, 수정, 조회 (CRUD) 구현
-    - 도서 상세 정보 및 재고 관리 로직
+    - 주문량, 조회수, 카테고리별 도서 정렬 기능 구현
+    - 알라딘 Open API 기반 도서 데이터 수집 및 보강
+    - Gemini API를 활용한 도서 데이터 보강 기능 구현
+    - CSV 파일을 파싱하여 도서 데이터 일괄 등록 구현
 
 ### **🎟️ 쿠폰**
 - 담당자 : 정현수
@@ -122,22 +125,28 @@
     - TossPayments API와 연동.
     - 결제 승인/실패 프로세스 
 
-### **📝 리뷰 / ❤️ 좋아요**
-- 담당자 : (담당자 이름)
-    - 도서 리뷰 작성 및 평점 기능
-    - 도서 좋아요 및 관심 상품 등록
+### **📝 리뷰**
+- 담당자 : 김근오, 조은해
+    - 리뷰 조회, 등록, 수정 기능 구현
+    - AI 모델을 활용한 리뷰 요약 기능 구현
+
+### **❤️ 위시리스트**
+- 담당자 : 조은해
+    - 위시리스트(관심 상품) 등록, 조회, 삭제 (CRUD) 구현
 
 ### **🚚 배송 / 📦 포장지**
 - 담당자 : (담당자 이름)
     - 배송비 정책 관리
     - 선물 포장 옵션 선택 기능
 
-### **📂 파일
-- 담당자 : (담당자 이름)
-    - MinIo를 이용한 이미지/파일 업로드 및 관리
-    - 도서 카테고리 분류 및 계층 구조 관리
+### **📂 파일**
+- 담당자 : 조은해
+    - MinIO Object Storage를 이용한 도서 및 리뷰 이미지 저장/호출 처리
  
 ### **📂 카테고리**
+- 담당자 : 조은해, 최지훈
+    - 도서 카테고리 매핑 및 구조 관리
+    - 카테고리별 도서 목록 조회 기능 구현
 
 <br>
 
@@ -146,8 +155,8 @@
 <table border="1" cellspacing="0" cellpadding="10">
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">강병호</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/Splleat">강병호</a><br />
+      <img width="130px" src="https://github.com/Splleat.png" /><br />
       주문 서비스
     </th>
     <td colspan="2" rowspan="3">(강병호님의 느낀점을 입력해주세요. 프로젝트를 진행하며 겪은 기술적 어려움이나 성장한 점 등을 작성하면 좋습니다.)</td>
@@ -157,8 +166,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">김세현</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/byesummer">김세현</a><br />
+      <img width="130px" src="https://github.com/byesummer.png" /><br />
       회원 서비스
     </th>
     <td colspan="2" rowspan="3">(김세현님의 느낀점을 입력해주세요.)</td>
@@ -168,8 +177,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">김근오</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/roben0510">김근오</a><br />
+      <img width="130px" src="https://github.com/roben0510.png" /><br />
       검색 서비스
     </th>
     <td colspan="2" rowspan="3">(김근오님의 느낀점을 입력해주세요.)</td>
@@ -179,8 +188,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">박성호</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/serrot24">박성호</a><br />
+      <img width="130px" src="https://github.com/serrot24.png" /><br />
       인프라
     </th>
     <td colspan="2" rowspan="3">(박성호님의 느낀점을 입력해주세요.)</td>
@@ -190,8 +199,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">이승현</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/SHYiii">이승현</a><br />
+      <img width="130px" src="https://github.com/SHYiii.png" /><br />
       장바구니 서비스
     </th>
     <td colspan="2" rowspan="3">(처음에는 간단해 보였던 장바구니가 Redis와 RDB 사이의 데이터 동기화 문제를 만나면서 프로젝트 내내 가장 집요하게 파고든 기능이 되었습니다. 조회 성능을 높이기 위해 캐싱을 도입하는 과정에서
@@ -202,8 +211,8 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">정현수</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/hyunsu15">정현수</a><br />
+      <img width="130px" src="https://github.com/hyunsu15.png" /><br />
       쿠폰 서비스
     </th>
     <td colspan="2" rowspan="3">(정현수님의 느낀점을 입력해주세요.)</td>
@@ -213,19 +222,21 @@
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">조은해</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/eee88">조은해</a><br />
+      <img width="130px" src="https://github.com/eee88.png" /><br />
       도서 서비스
     </th>
-    <td colspan="2" rowspan="3">(조은해님의 느낀점을 입력해주세요.)</td>
+    <td colspan="2" rowspan="3">이번 프로젝트의 가장 큰 과제는 '방대한 도서 데이터를 어떻게 효율적으로 관리할 것인가'였습니다. 이를 해결하기 위해 초기 데이터 구축 단계에서 CSV 파일을 파싱 하여 DB에 적재하는 기능을 구현했고, 이 과정에서 대량의 데이터를 안정적으로 처리하기 위한 로직을 깊게 고민했습니다.
+
+또한 프로젝트의 핵심인 도서와 리뷰 도메인의 비즈니스 로직을 설계하고, MinIO를 도입해 파일 처리를 구현하며 백엔드 개발의 기술적 역량을 키웠습니다. 무엇보다 팀원들과 호흡을 맞추며, 혼자 개발할 때는 배울 수 없었던 API 설계의 표준화와 코드 일관성이 유지보수에 얼마나 중요한지 깨달을 수 있었던 값진 경험이었습니다.</td>
   </tr>
   <tr></tr>
   <tr></tr>
 
   <tr>
     <th rowspan="3">
-      <a href="https://github.com/아이디">최지훈</a><br />
-      <img width="130px" src="https://github.com/아이디.png" /><br />
+      <a href="https://github.com/ChousnCom">최지훈</a><br />
+      <img width="130px" src="https://github.com/ChousnCom.png" /><br />
       결제 서비스
     </th>
     <td colspan="2" rowspan="3">()</td>

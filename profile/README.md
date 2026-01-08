@@ -29,12 +29,12 @@
 |             [강병호](https://github.com/Splleat)              |             [김세현](https://github.com/byesummer)              |             [김근오](https://github.com/roben0510)              |             [박성호](https://github.com/serrot24)              |
 |:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|
 | <img width="130px" src="https://github.com/Splleat.png" /> | <img width="130px" src="https://github.com/byesummer.png" /> | <img width="130px" src="https://github.com/roben0510.png" /> | <img width="130px" src="https://github.com/serrot24.png" /> |
-|                         주문 서비스                          |                         회원 서비스                          |                         검색 서비스                          |                        인프라 서비스                         |
+|                          주문 서비스                          |                          회원 서비스                          |                          검색 서비스                          |                         인프라 서비스                         |
 
 |             [이승현](https://github.com/SHYiii)              |             [정현수](https://github.com/hyunsu15)              |             [조은해](https://github.com/eee88)              |             [최지훈](https://github.com/ChousnCom)              |
 |:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|
 | <img width="130px" src="https://github.com/SHYiii.png" /> | <img width="130px" src="https://github.com/hyunsu15.png" /> | <img width="130px" src="https://github.com/eee88.png" /> | <img width="130px" src="https://github.com/ChousnCom.png" /> |
-|                        장바구니 서비스                         |                         쿠폰 서비스                          |                         도서 서비스                          |                         결제 서비스                          |
+|                         장바구니 서비스                         |                          쿠폰 서비스                          |                          도서 서비스                          |                          결제 서비스                          |
 
 <br>
 
@@ -45,25 +45,25 @@
 
 ## 🥳 서비스 설계
 ### 기술 스택
-### 주요 기술 스택
 
-| **구분** | **Frontend** | **Backend** |
-| --- | --- | --- |
-| **Language** | HTML, CSS | Java **21** |
-| **IDE** | IntelliJ | IntelliJ |
-| **Framework** | - | Spring Boot, Spring Security, Spring Web, Spring JPA, Spring Cloud (Gateway, Config, OpenFeign, Eureka), Spring AOP, Spring Session Redis |
-| **Library** | - | JWT, Lombok, OpenFeign, Spring Validation, Swagger |
-| **Template** | Thymeleaf | - |
+#### **Backend**
+<img src="https://img.shields.io/badge/java 21-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/spring boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/spring security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"> <img src="https://img.shields.io/badge/spring jpa-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/spring cloud gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/spring eureka-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/spring openfeign-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/spring config-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/maven-C71A36?style=for-the-badge&logo=maven&logoColor=white"> <img src="https://img.shields.io/badge/jwt-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"> <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"> <img src="https://img.shields.io/badge/lombok-BC0230?style=for-the-badge&logo=lombok&logoColor=white">
 
-### 공통 기술 스택
+#### **Frontend**
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white">
 
-| **구분** | **기술** |
-| --- | --- |
-| **DB** | MySQL, Redis, H2 |
-| **Infra** | GitHub Action, Docker, Nginx, Elasticsearch, Eureka, Config Server, MinIO |
-| **Tools** | GitHub, Notion, Dooray, Wiki |
-| **Build** | Maven, Spring Boot, **JaCoCo (Test Coverage)** |
-| **Test** | Spring Boot Test, Spring Security, Swagger |
+#### **Database & Cache**
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/h2-003B57?style=for-the-badge&logo=h2&logoColor=white">
+
+#### **Infrastructure**
+<img src="https://img.shields.io/badge/github actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/minio-C72C48?style=for-the-badge&logo=minio&logoColor=white"> <img src="https://img.shields.io/badge/elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white">
+
+#### **Tools & Collaboration**
+<img src="https://img.shields.io/badge/intellij idea-000000?style=for-the-badge&logo=intellijidea&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/dooray!-262B40?style=for-the-badge">
 
 ### ERD
 [📎 Trillion ERD 구조도](ERD_클라우드_링크_입력)
@@ -120,14 +120,14 @@
 ### **📱 주문**
 - 담당자 : 강병호
     - Orchestration Saga 패턴 기반의 주문 생성 및 취소, 환불 분산 트랜잭션 구현
-       스케줄러를 이용한 중단된 트랜잭션 복구 시스템 구축
-       멱등성 키 설계를 통한 중복 요청 방어 및 데이터 정합성 확보
-       배송 정책 및 포장지 관리 등 주문 관련 부가 도메인 기능 구현
+        스케줄러를 이용한 중단된 트랜잭션 복구 시스템 구축
+        멱등성 키 설계를 통한 중복 요청 방어 및 데이터 정합성 확보
+        배송 정책 및 포장지 관리 등 주문 관련 부가 도메인 기능 구현
 
 ### **💳 결제**
 - 담당자 : 최지훈
     - TossPayments API와 연동.
-    - 결제 승인/실패 프로세스 
+    - 결제 승인/실패 프로세스
 
 ### **📝 리뷰**
 - 담당자 : 김근오, 조은해
@@ -146,7 +146,7 @@
 ### **📂 파일**
 - 담당자 : 조은해
     - MinIO Object Storage를 이용한 도서 및 리뷰 이미지 저장/호출 처리
- 
+
 ### **📂 카테고리**
 - 담당자 : 조은해, 최지훈
     - 도서 카테고리 매핑 및 구조 관리

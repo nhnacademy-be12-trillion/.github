@@ -73,7 +73,7 @@
 <img width="100%" alt="Trillion Architecture" src="아키텍처_이미지_경로_입력" />
 
 ### Docs
-[📎 Trillion Team Wiki](위키_또는_노션_링크_입력)
+[Trillion Team Wiki](https://github.com/nhnacademy-be12-trillion/project_wiki/wiki)
 
 <br>
 

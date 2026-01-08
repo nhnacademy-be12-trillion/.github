@@ -69,7 +69,7 @@
 <img width="100%" alt="Trillion ERD" src="./images/trillion-erd.png" />
 
 ### Architecture
-<img width="100%" alt="Trillion Architecture" src="아키텍처_이미지_경로_입력" />
+<img width="100%" alt="Trillion Architecture" src="./images/architecture.png" />
 
 ### Docs
 [Trillion Team Wiki](https://github.com/nhnacademy-be12-trillion/project_wiki/wiki)

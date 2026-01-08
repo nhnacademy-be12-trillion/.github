@@ -7,14 +7,14 @@
 
 ## 📜 목차
 - [🗓️ 프로젝트 개요](#%EF%B8%8F-프로젝트-개요)
-  - [진행 기간](#진행-기간)
-  - [팀 구성](#팀-구성-)
+    - [진행 기간](#진행-기간)
+    - [팀 구성](#팀-구성-)
 - [서비스 소개](#-서비스-소개)
 - [서비스 설계](#-서비스-설계)
-  - [기술 스택](#기술-스택)
-  - [ERD](#erd)
-  - [Architecture](#architecture)
-  - [Docs](#docs)
+    - [기술 스택](#기술-스택)
+    - [ERD](#erd)
+    - [Architecture](#architecture)
+    - [Docs](#docs)
 - [기능 소개](#-기능-소개)
 - [느낀점](#-느낀점)
 
@@ -54,16 +54,19 @@
 <img src="https://img.shields.io/badge/maven-C71A36?style=for-the-badge&logo=maven&logoColor=white"> <img src="https://img.shields.io/badge/jwt-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"> <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"> <img src="https://img.shields.io/badge/lombok-BC0230?style=for-the-badge&logo=lombok&logoColor=white">
 
 #### **Frontend**
-<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white">
 
 #### **Database & Cache**
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/h2-003B57?style=for-the-badge&logo=h2&logoColor=white">
 
 #### **Infrastructure**
-<img src="https://img.shields.io/badge/github actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/minio-C72C48?style=for-the-badge&logo=minio&logoColor=white"> <img src="https://img.shields.io/badge/elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white">
+<img src="https://img.shields.io/badge/github actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/docker compose-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/minio-C72C48?style=for-the-badge&logo=minio&logoColor=white"> <img src="https://img.shields.io/badge/elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white">
 
 #### **Tools & Collaboration**
-<img src="https://img.shields.io/badge/intellij idea-000000?style=for-the-badge&logo=intellijidea&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/dooray!-262B40?style=for-the-badge">
+<img src="https://img.shields.io/badge/intellij idea-000000?style=for-the-badge&logo=intellijidea&logoColor=white"> <img src="https://img.shields.io/badge/sonarqube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/dooray!-262B40?style=for-the-badge">
+
+#### **Payment & API**
+<img src="https://img.shields.io/badge/toss payments-0064FF?style=for-the-badge&logo=toss&logoColor=white"> <img src="https://img.shields.io/badge/payco-DA291C?style=for-the-badge">
 
 ### ERD
 <img width="100%" alt="Trillion ERD" src="./images/trillion-erd.png" />
@@ -80,76 +83,76 @@
 
 ### **🏗️ 인프라**
 - 담당자 : 박성호
-  - Github Action을 활용한 CI/CD 구축
-  - Docker-Docker compose 활용 및 Nginx 로드밸런싱/리버스 프록시 설정
-  - Gateway, Eureka, ConfigServer 구축
-  - 오류 분석을 위한 로그 설계와 EFK-메신저 알림 시트메 구축
+    - Github Action을 활용한 CI/CD 구축
+    - Docker-Docker compose 활용 및 Nginx 로드밸런싱/리버스 프록시 설정
+    - Gateway, Eureka, ConfigServer 구축
+    - 오류 분석을 위한 로그 설계와 EFK-메신저 알림 시트메 구축
 
 ### **👤 회원/포인트**
 - 담당자 : 김세현
-  - 회원 가입, 정보 수정, 탈퇴 등 회원 생애주기 관리
-  - 등급별 포인트 적립 및 사용 로직 구현
+    - 회원 가입, 정보 수정, 탈퇴 등 회원 생애주기 관리
+    - 등급별 포인트 적립 및 사용 로직 구현
 
 ### **📖 도서**
 - 담당자 : 조은해, 최지훈
-  - 도서 등록, 수정, 조회 (CRUD) 구현
-  - 주문량, 조회수, 카테고리별 도서 정렬 기능 구현
-  - 알라딘 Open API 기반 도서 데이터 수집 및 보강
-  - Gemini API를 활용한 도서 데이터 보강 기능 구현
-  - CSV 파일을 파싱하여 도서 데이터 일괄 등록 구현
+    - 도서 등록, 수정, 조회 (CRUD) 구현
+    - 주문량, 조회수, 카테고리별 도서 정렬 기능 구현
+    - 알라딘 Open API 기반 도서 데이터 수집 및 보강
+    - Gemini API를 활용한 도서 데이터 보강 기능 구현
+    - CSV 파일을 파싱하여 도서 데이터 일괄 등록 구현
 
 ### **🎟️ 쿠폰**
 - 담당자 : 정현수
-  - 쿠폰 발급, 조회 및 적용 로직 구현
-  - 쿠폰 유효성 검증 및 예외 처리
+    - 쿠폰 발급, 조회 및 적용 로직 구현
+    - 쿠폰 유효성 검증 및 예외 처리
 
 ### **🔍 검색**
 - 담당자 : 김근오
-  - ElasticSearch 기반 도서 검색 기능 구현
-  - 검색 성능 최적화
+    - ElasticSearch 기반 도서 검색 기능 구현
+    - 검색 성능 최적화
 
 ### **🛒 장바구니**
 - 담당자 : 이승현
-  - 회원/비회원 장바구니 CRUD(상품 추가, 수량 변경, 삭제) 기능 구현
-  - 성능을 위해 Redis를 활용하여 장바구니 기능을 구축하고, 회원 데이터는 DB에 영구 저장하여 안정성 확보
-  - 모든 장바구니 연산을 Redis(In-Memory)에서 처리하여 응답 지연(Latency) 최소화
-  - Write-Back(지연 쓰기) 패턴을 적용, 스케줄러를 통해 Redis 데이터를 DB에 비동기 동기화하여 영속성 보장
-  - 데이터 생명주기 관리 및 리소스 최적화를 위해 담은 지 90일 경과 상품 자동 삭제 스케줄러 구현
+    - 회원/비회원 장바구니 CRUD(상품 추가, 수량 변경, 삭제) 기능 구현
+    - 성능을 위해 Redis를 활용하여 장바구니 기능을 구축하고, 회원 데이터는 DB에 영구 저장하여 안정성 확보
+    - 모든 장바구니 연산을 Redis(In-Memory)에서 처리하여 응답 지연(Latency) 최소화
+    - Write-Back(지연 쓰기) 패턴을 적용, 스케줄러를 통해 Redis 데이터를 DB에 비동기 동기화하여 영속성 보장
+    - 데이터 생명주기 관리 및 리소스 최적화를 위해 담은 지 90일 경과 상품 자동 삭제 스케줄러 구현
 
 ### **📱 주문**
 - 담당자 : 강병호
-  - Orchestration Saga 패턴 기반의 주문 생성 및 취소, 환불 분산 트랜잭션 구현
-    스케줄러를 이용한 중단된 트랜잭션 복구 시스템 구축
-    멱등성 키 설계를 통한 중복 요청 방어 및 데이터 정합성 확보
-    배송 정책 및 포장지 관리 등 주문 관련 부가 도메인 기능 구현
+    - Orchestration Saga 패턴 기반의 주문 생성 및 취소, 환불 분산 트랜잭션 구현
+        스케줄러를 이용한 중단된 트랜잭션 복구 시스템 구축
+        멱등성 키 설계를 통한 중복 요청 방어 및 데이터 정합성 확보
+        배송 정책 및 포장지 관리 등 주문 관련 부가 도메인 기능 구현
 
 ### **💳 결제**
 - 담당자 : 최지훈
-  - TossPayments API와 연동.
-  - 결제 승인/실패 프로세스
+    - TossPayments API와 연동.
+    - 결제 승인/실패 프로세스
 
 ### **📝 리뷰**
 - 담당자 : 김근오, 조은해
-  - 리뷰 조회, 등록, 수정 기능 구현
-  - AI 모델을 활용한 리뷰 요약 기능 구현
+    - 리뷰 조회, 등록, 수정 기능 구현
+    - AI 모델을 활용한 리뷰 요약 기능 구현
 
 ### **❤️ 위시리스트**
 - 담당자 : 조은해
-  - 위시리스트(관심 상품) 등록, 조회, 삭제 (CRUD) 구현
+    - 위시리스트(관심 상품) 등록, 조회, 삭제 (CRUD) 구현
 
 ### **🚚 배송 / 📦 포장지**
 - 담당자 : (담당자 이름)
-  - 배송비 정책 관리
-  - 선물 포장 옵션 선택 기능
+    - 배송비 정책 관리
+    - 선물 포장 옵션 선택 기능
 
 ### **📂 파일**
 - 담당자 : 조은해
-  - MinIO Object Storage를 이용한 도서 및 리뷰 이미지 저장/호출 처리
+    - MinIO Object Storage를 이용한 도서 및 리뷰 이미지 저장/호출 처리
 
 ### **📂 카테고리**
 - 담당자 : 조은해, 최지훈
-  - 도서 카테고리 매핑 및 구조 관리
-  - 카테고리별 도서 목록 조회 기능 구현
+    - 도서 카테고리 매핑 및 구조 관리
+    - 카테고리별 도서 목록 조회 기능 구현
 
 <br>
 

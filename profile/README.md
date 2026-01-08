@@ -66,7 +66,6 @@
 <img src="https://img.shields.io/badge/intellij idea-000000?style=for-the-badge&logo=intellijidea&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/dooray!-262B40?style=for-the-badge">
 
 ### ERD
-[📎 Trillion ERD 구조도](ERD_클라우드_링크_입력)
 <img width="100%" alt="Trillion ERD" src="ERD_이미지_경로_입력" />
 
 ### Architecture

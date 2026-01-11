@@ -26,10 +26,10 @@
   <br>
 
 ## 팀 구성
-|             [강병호](https://github.com/Splleat)              |             [김세현](https://github.com/byesummer)              |             [김근오](https://github.com/roben0510)              |             [박성호](https://github.com/serrot24)              |
+|             [강병호](https://github.com/Splleat)              |             [김근오](https://github.com/roben0510)              |             [김세현](https://github.com/byesummer)              |             [박성호](https://github.com/serrot24)              |
 |:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|
-| <img width="130px" src="https://github.com/Splleat.png" /> | <img width="130px" src="https://github.com/byesummer.png" /> | <img width="130px" src="https://github.com/roben0510.png" /> | <img width="130px" src="https://github.com/serrot24.png" /> |
-|                          주문 서비스                          |                          회원 서비스                          |                          검색 서비스                          |                         인프라 서비스                         |
+| <img width="130px" src="https://github.com/Splleat.png" /> | <img width="130px" src="https://github.com/roben0510.png" /> | <img width="130px" src="https://github.com/byesummer.png" /> | <img width="130px" src="https://github.com/serrot24.png" /> |
+|                          주문 서비스                          |                          검색 서비스                          |                          회원 서비스                          |                         인프라 서비스                         |
 
 |             [이승현](https://github.com/SHYiii)              |             [정현수](https://github.com/hyunsu15)              |             [조은해](https://github.com/eee88)              |             [최지훈](https://github.com/ChousnCom)              |
 |:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|:----------------------------------------------------------:|
@@ -172,7 +172,18 @@
   </tr>
   <tr></tr>
   <tr></tr>
-
+    
+<tr>
+    <th rowspan="3">
+      <a href="https://github.com/roben0510">김근오</a><br />
+      <img width="130px" src="https://github.com/roben0510.png" /><br />
+      검색 서비스
+    </th>
+    <td colspan="2" rowspan="3">(김근오님의 느낀점을 입력해주세요.)</td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  
   <tr>
     <th rowspan="3">
       <a href="https://github.com/byesummer">김세현</a><br />
@@ -180,17 +191,6 @@
       회원 서비스
     </th>
     <td colspan="2" rowspan="3">(김세현님의 느낀점을 입력해주세요.)</td>
-  </tr>
-  <tr></tr>
-  <tr></tr>
-
-  <tr>
-    <th rowspan="3">
-      <a href="https://github.com/roben0510">김근오</a><br />
-      <img width="130px" src="https://github.com/roben0510.png" /><br />
-      검색 서비스
-    </th>
-    <td colspan="2" rowspan="3">(김근오님의 느낀점을 입력해주세요.)</td>
   </tr>
   <tr></tr>
   <tr></tr>

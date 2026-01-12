@@ -201,7 +201,7 @@
       <img width="130px" src="https://github.com/serrot24.png" /><br />
       인프라
     </th>
-    <td colspan="2" rowspan="3">(박성호님의 느낀점을 입력해주세요.)</td>
+    <td colspan="2" rowspan="3">이번 프로젝트에서 인프라 구축을 담당하며 운영 관점의 설계를 깊이 고민할 수 있었습니다. 특히 컨테이너 환경과 서비스 설정을 코드 변경 없이 외부에서 관리할 수 있도록 Config Server와 Docker Compose를 활용한 경험이 인상 깊었습니다. 비즈니스 로직 개발에 더 참여하지 못한 아쉬움이 있지만, 이를 계기로 백엔드 개발 역량을 키우기 위해 지속적으로 학습하고 있습니다.</td>
   </tr>
   <tr></tr>
   <tr></tr>

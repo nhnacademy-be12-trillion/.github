@@ -141,7 +141,7 @@
     - 위시리스트(관심 상품) 등록, 조회, 삭제 (CRUD) 구현
 
 ### **🚚 배송 / 📦 포장지**
-- 담당자 : (담당자 이름)
+- 담당자 : 강병호
     - 배송비 정책 관리
     - 선물 포장 옵션 선택 기능
 
@@ -166,7 +166,7 @@
 
 <table border="1" cellspacing="0" cellpadding="10">
   <tr>
-    <th rowspan="3">
+    <th rowspan="3" width="200px">
       <a href="https://github.com/Splleat">강병호</a><br />
       <img width="130px" src="https://github.com/Splleat.png" /><br />
       주문 서비스
@@ -177,7 +177,7 @@
   <tr></tr>
     
 <tr>
-    <th rowspan="3">
+    <th rowspan="3" width="200px">
       <a href="https://github.com/roben0510">김근오</a><br />
       <img width="130px" src="https://github.com/roben0510.png" /><br />
       검색 서비스
@@ -188,7 +188,7 @@
   <tr></tr>
   
   <tr>
-    <th rowspan="3">
+    <th rowspan="3" width="200px">
       <a href="https://github.com/byesummer">김세현</a><br />
       <img width="130px" src="https://github.com/byesummer.png" /><br />
       회원 서비스
@@ -199,7 +199,7 @@
   <tr></tr>
 
   <tr>
-    <th rowspan="3">
+    <th rowspan="3" width="200px">
       <a href="https://github.com/serrot24">박성호</a><br />
       <img width="130px" src="https://github.com/serrot24.png" /><br />
       인프라
@@ -210,7 +210,7 @@
   <tr></tr>
 
   <tr>
-    <th rowspan="3">
+    <th rowspan="3" width="200px">
       <a href="https://github.com/SHYiii">이승현</a><br />
       <img width="130px" src="https://github.com/SHYiii.png" /><br />
       장바구니 서비스
@@ -222,7 +222,7 @@
   <tr></tr>
 
   <tr>
-    <th rowspan="3">
+    <th rowspan="3" width="200px">
       <a href="https://github.com/hyunsu15">정현수</a><br />
       <img width="130px" src="https://github.com/hyunsu15.png" /><br />
       쿠폰 서비스
@@ -233,7 +233,7 @@
   <tr></tr>
 
   <tr>
-    <th rowspan="3">
+    <th rowspan="3" width="200px">
       <a href="https://github.com/eee88">조은해</a><br />
       <img width="130px" src="https://github.com/eee88.png" /><br />
       도서 서비스
@@ -246,7 +246,7 @@
   <tr></tr>
 
   <tr>
-    <th rowspan="3">
+    <th rowspan="3" width="200px">
       <a href="https://github.com/ChousnCom">최지훈</a><br />
       <img width="130px" src="https://github.com/ChousnCom.png" /><br />
       결제 서비스
